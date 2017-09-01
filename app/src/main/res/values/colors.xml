@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66acf6</color>
+    <color name="colorPrimaryDark">#538dc9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="categoryText">#001a33</color>
+    <color name="intentOverview">#000000</color>
+</resources>

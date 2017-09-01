@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:textSize">@dimen/textSize34</item>
+        <item name="android:textColor">@color/categoryText</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom16</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+
+    </style>
+
+    <style name="intentOverview">
+        <item name="android:textColor">@color/intentOverview</item>
+        <item name="android:layout_margin">@dimen/margin8</item>
+    </style>
+
+    <style name="mainCardView">
+        <item name="android:layout_marginTop">@dimen/marginTop8</item>
+    </style>
+    <style name="songDetails">
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:padding">@dimen/padding16</item>
+        <item name="android:text">@string/songDetails</item>
+    </style>
+
+    <style name="nowPlayingInfo">
+        <item name="android:textSize">@dimen/textSize18</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <style name="nowPlayingMainImage">
+        <item name="android:layout_width">@dimen/layoutWidth180</item>
+        <item name="android:layout_height">@dimen/layoutHeight180</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <style name="shuffleButton">
+        <item name="android:paddingLeft">@dimen/paddingLeft12</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom4</item>
+    </style>
+
+    <style name="repeatButton">
+        <item name="android:paddingRight">@dimen/paddingRight12</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom4</item>
+    </style>
+
+    <style name="skipPreviousButton">
+        <item name="android:layout_marginRight">@dimen/marginRight16</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <style name="skipNextButton">
+        <item name="android:layout_marginLeft">@dimen/marginLeft16dp</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+</resources>

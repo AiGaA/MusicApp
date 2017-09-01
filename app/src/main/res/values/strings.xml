@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="genres">Genres</string>
+    <string name="songs">Songs</string>
+    <string name="playlists">Playlists</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songDetails">Song Details</string>
+    <string name="nowPlayingInfo">Artist Name - Song Name</string>
+    <string name="songPlayingStartTime">0:00</string>
+    <string name="songPlayingEndTime">3:59</string>
+
+
+    <!-- COMMENTS ON INTENTS -->
+    <string name="mainMenuText">Main menu, with navigation leading to its intents.
+        If clicking on any of TextViews it will open their intents.
+        Also, there is Now Playing shortcut, that if click on this card widget view,
+        it will open Now Playing intent.
+        At the moment to go back from any other intent to the mainLayout, you can do by pressing back button on the phone,
+        but in the future, I would add an option in layout, right beside the label that will allow user to go back from other intents to main one.
+        Also, I would like to add a search icon at the top, right side of the labels (every intent, except Now Playing),
+        which would expand and would allow to search for music, album, artist or song name in library.
+    </string>
+
+    <string name="artistsIntentText">In this layout will be displayed all artists, which are stored on the device library.
+         All artists would be displayed in RecycleView vertically and
+         when clicked on artist name it would lead to Now Playing intent.
+    </string>
+
+    <string name="playlistIntentText">Playlists Intent. This would be a scrollable intent with option to create your own playlists.
+        I would put here card widget, where music would be stored and would go to Now Playing intent when clicked on chosen card widget.
+        Each cardView will have image and name of the playlist. This layout will be LinearLayout with rectangular cardViews which have set sizes.
+        I would add an icon on top-right-side of the intent for an option to create a new playlist
+        </string>
+
+    <string name="songIntentText">I would use here RecyclerView to display all songs from library alphabetically.
+        They would be displayed in LinearLayout in orientation vertical.
+        Every song on right side end would have an icon play button, which would lead to Now Playing intent when clicked on.
+    </string>
+
+    <string name="albumsIntentText">Albums Intent will display all albums alphabetically
+        and same as songs and artists intents with RecyclerView and LinearLayout vertically.
+    </string>
+
+    <string name="genreIntentText">Genres intent. In this intent would be displayed different genres,
+        like Indie, Pop, Rock, etc. in CardView widgets, which would be displayed in LinearLayout vertically,
+        and layout matched to parent (similarly to main menu). Every genre card would contain song list by its genre.
+        There could be an option play all with icon on the card.
+    </string>
+
+<!--Some changes has been added-->
+    <string name="nowPlayingIntentText">Now Playing intent will show the picture of the artists/album,
+        artists name and songs name, and other components what is needed for player using a MediaPlayer API.
+        Also there is list at the bottom, which scrolls down and there is songs displayed.
+        Ideally would use a RecyclerView for it and add an additional buttons to play that record on the right side of the view.
+    </string>
+</resources>

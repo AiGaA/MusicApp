@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="textSize34">34sp</dimen>
+    <dimen name="paddingBottom8">8dp</dimen>
+    <dimen name="paddingTop8">8dp</dimen>
+    <dimen name="paddingLeft8">8dp</dimen>
+    <dimen name="paddingRight">8dp</dimen>
+    <dimen name="marginTop8">8dp</dimen>
+    <dimen name="marginTop10">10dp</dimen>
+    <dimen name="marginTop16">16dp</dimen>
+    <dimen name="marginBottom16">16dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+    <dimen name="layoutWidth180">180dp</dimen>
+    <dimen name="layoutHeight180">180dp</dimen>
+    <dimen name="paddingBottom4">4dp</dimen>
+    <dimen name="paddingLeft12">12dp</dimen>
+    <dimen name="paddingRight12">12dp</dimen>
+    <dimen name="marginRight16">16dp</dimen>
+    <dimen name="layoutWidth0">0dp</dimen>
+    <dimen name="marginLeft16dp">16dp</dimen>
+
+</resources>
+
+
